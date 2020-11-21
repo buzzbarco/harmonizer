@@ -1,0 +1,56 @@
+body {
+    user-select: none;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.minicolors-theme-default .minicolors-swatch {
+    width: 13px;
+    height: 13px;
+    border-radius: 2px;
+}
+.minicolors-theme-default {
+    width: 100%;
+}
+.minicolors-theme-default {
+    width: calc(100% - 130px);
+}
+.minicolors-theme-default .minicolors-input {
+    width: 100%;
+    height: unset;
+}
+
+.harmony {
+    border-spacing: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+    /*transform: skewX(-20deg) scaleX(1.1);*/
+}
+
+.harmony:nth-child(2) .colour-block {
+    height: 100px;
+}
+
+.colour-block {
+    height: 60px;
+}
+
+#distance {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: calc(100% - 30px);
+    margin-left: 15px;
+}
+
+.minicolors-panel {
+    border: solid 0px black !important;
+}
+
+#app {
+    max-width: 400px;
+    margin: auto;
+}
+
+.colourpicker {
+    margin-left: 30px;
+}
