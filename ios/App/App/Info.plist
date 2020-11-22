@@ -39,7 +39,7 @@
 		<true/>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>NSCameraUsageDescription</string>
+	<string>Pick a colour using the camera</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>Always allow Geolocation?</string>
 	<key>NSMicrophoneUsageDescription</key>
@@ -47,7 +47,7 @@
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>NSPhotoLibraryAddUsageDescription</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>NSPhotoLibraryUsageDescription</string>
+	<string>Pick a colour from an image on your Phone</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
