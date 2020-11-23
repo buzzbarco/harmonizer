@@ -19,9 +19,9 @@
 	<template x-for="harmony in harmonies">
 		<table class="harmony" x-bind:class="{ 'selected': selected==harmony.harmony, 'small': selected!=''&&selected!=harmony.harmony}"><tr>
 			<template x-for="colour in harmony.colours"><td x-on:click="selected=harmony.harmony!=selected?harmony.harmony:''">
+				<div class="colour-block shade" x-bind:style="'background-color: ' + colour + '; filter:brightness(0.75)'"></div>
 				<div class="colour-block" x-bind:style="'background-color: ' + colour"></div>
 				<div class="colour-block shade" x-bind:style="'background-color: ' + colour + '; opacity:50%'"></div>
-				<div class="colour-block shade" x-bind:style="'background-color: ' + colour + '; opacity:25%'"></div>
 			</td></template>
 		</tr></table>
 	</template>
